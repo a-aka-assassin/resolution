@@ -1,0 +1,23 @@
+Prerequisites 
+Python Installed 
+pip installed
+
+1: You will need to install fast api
+    pip install fastapi
+
+2: Also install Uvicorn to run the local server
+    pip install uvicorn
+    
+    To run the server
+    uvicorn main: app
+
+    You can click on the url shown in response to the above command to open it in the browser. Usually, it is
+    http://127.0.0.1:8000/
+
+3: To make the requests, you will need to go to
+    http://127.0.0.1:8000/docs
+
+    And you will see the page with requessts tabs (i.e POST and Get)
+
+    You can run the requests with the help of GUI. Also you can run the request from the url bar with right route that you created.
+    
